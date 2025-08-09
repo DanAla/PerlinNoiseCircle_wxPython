@@ -21,7 +21,7 @@ Each ring is placed using 2-D Perlin noise, giving every run a unique, flowing a
 - **Cross-platform** – pure Python + wxPython; runs on Windows, macOS, Linux  
 
 ---
-## Windows user
+## 🚀 Windows Quick start
 simply run PerlinNoiseCircle_wx.exe
 
 ## 🚀 Quick start
