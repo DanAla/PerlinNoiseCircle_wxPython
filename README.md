@@ -3,7 +3,7 @@
 
 ---
 
-![preview](docs/screenshot.png)  
+![preview](PerlinNoiseCircles_wx(1024x768).png)  
 *(example output, 1024 × 768 window)*
 
 ---
