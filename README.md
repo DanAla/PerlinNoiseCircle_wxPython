@@ -1,6 +1,6 @@
 # PerlinNoiseCircle_wxPython  
 *Create hypnotic, ever-expanding circle art from Perlin noise — right on your desktop.*
-### This app is an adaptation in Python, based on the work of Stoli123 who has written it in Processing5's Java
+### This app is an adaptation in Python, based on the work of Stoli123@p5js (ricks6756@youtube) who has written it in Processing5's JavaScript
 https://editor.p5js.org/Stoli123/sketches/ifMMJBDca
 ---
 
