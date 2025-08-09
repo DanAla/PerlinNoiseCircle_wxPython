@@ -33,7 +33,6 @@ if os.path.isfile(DEFAULT_PARAMS_FILE):
         DEFAULTS = json.load(f)
 else:
     DEFAULTS = BUILTIN_DEFAULTS.copy()
-# ------------------------------------------------------------
 
 
 class ParamPanel(wx.Panel):
@@ -251,7 +250,6 @@ class MainFrame(wx.Frame):
         self.SetSizer(main)
         self.Bind(wx.EVT_CLOSE, self.on_close)
 
-        # centre scrollbars once the window is really shown
         self.Bind(wx.EVT_SHOW, self.on_show)
 
     def on_show(self, evt):
@@ -261,7 +259,6 @@ class MainFrame(wx.Frame):
                 (CANVAS_SIZE - VIEWPORT_SIZE) // 2,
                 (CANVAS_SIZE - VIEWPORT_SIZE) // 2)
 
-    # --- unchanged helpers ----------------------------------------------------
     def on_save_params(self, evt):
         with wx.FileDialog(self, "Save parameters", wildcard="*.json",
                            style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as dlg:
