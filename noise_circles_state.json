@@ -1,0 +1,23 @@
+{
+  "size": [
+    1024,
+    768
+  ],
+  "pos": [
+    26,
+    26
+  ],
+  "max": false,
+  "params": {
+    "startRadius": 25.0,
+    "maxCircles": 310,
+    "resolution": 1,
+    "dRadius": 0.5,
+    "rdn": 10.0,
+    "xOffset": 0.0,
+    "yOffset": 0.0,
+    "nSeed": 0,
+    "penWidth": 0.25,
+    "lineDistance": 1.0
+  }
+}
